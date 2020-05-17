@@ -23,3 +23,6 @@ vim /etc/elasticsearch/jvm.options
 * 서비스 등록하기
 service elasticsearch start
 
+* 서비스 확인
+curl -X GET 'localhost:9200'
+
